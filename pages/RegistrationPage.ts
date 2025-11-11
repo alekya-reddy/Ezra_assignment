@@ -49,7 +49,7 @@ export default class RegistrationPage {
         try {
             await this.submitButton.click();
             await this.submitButton.click();
-            await this.submitButton.click();
+      
         } catch (err) {
             // fallback if element is covered/disabled momentarily
             await this.submitButton.click({ force: true });
